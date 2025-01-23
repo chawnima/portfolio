@@ -9,11 +9,17 @@
 
   color-scheme: light dark;
   background-color: #242424;
-  --primary:94, 234, 212;
-  --secondary:163, 163, 163;
+  --primary: 94, 234, 212;
+  --secondary: 163, 163, 163;
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+}
+
+@keyframes pulse {
+  50% {
+    opacity: 0;
+  }
 }

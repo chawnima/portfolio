@@ -74,7 +74,7 @@ const Header = () => {
           {FEATURED.map((item) => (
             <a
               className="flex flex-col items-center w-32 h-auto p-3 hover:bg-primary/10 rounded-lg transition-all duration-300"
-              href="#"
+              href={`#${item.name.replace(" ", "-").toLowerCase()}`}
               key={item.name}
             >
               <img src={item.logo} className="w-auto h-28 object-contain" />

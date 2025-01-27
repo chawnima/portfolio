@@ -9,7 +9,7 @@ function RootComponent() {
   return (
     <>
       <Outlet />
-      <TanStackRouterDevtools />
+      {import.meta.env.MODE === "development" && <TanStackRouterDevtools />}
     </>
   );
 }

@@ -15,7 +15,7 @@ const Projects = () => {
       image: lapisMalangImage,
       techStack: [],
       link: "https://chawnima.github.io/lapismalang-website/home.html",
-      description: "",
+      description: "A website for a local food business. This project was build using only HTML, CSS, and JavaScript. I built this project to practice my HTML and CSS styling skills.",
     },
   ];
 

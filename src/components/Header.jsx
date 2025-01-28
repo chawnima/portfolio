@@ -3,6 +3,9 @@ import { useState, useEffect } from "react";
 import logoTerbangin from "../assets/logoterbangin.png";
 import logoLapisMalang from "../assets/logolapismalang.png";
 
+import GitHubIcon from "@mui/icons-material/GitHub";
+import LinkedInIcon from "@mui/icons-material/LinkedIn";
+
 const TEXT = {
   firstText: "Hello, I'm ",
   secondText: "Mohamad Ferdy Alviansyah.",
@@ -51,6 +54,23 @@ const Header = () => {
 
   return (
     <header className="flex w-full max-w-5xl flex-col lg:flex-row items-center justify-center my-16">
+      <div className="flex flex-row lg:flex-col gap-4 h-0 w-full items-center justify-start lg:justify-center px-8 lg:h-72 lg:w-0 max-w-3xl">
+        <a
+          className="bg-transparent"
+          href="https://github.com/chawnima"
+          target="_blank"
+        >
+          <GitHubIcon />
+        </a>
+        <a
+          className="bg-transparent"
+          href="https://www.linkedin.com/in/mohamad-ferdy-alviansyah"
+          target="_blank"
+        >
+          <LinkedInIcon />
+        </a>
+      </div>
+
       <div className="flex w-full max-w-3xl h-96 items-start justify-center flex-col p-8 gap-8">
         <h1 className="text-primary text-4xl font-bold w-4/6">
           <span>{firstSpan}</span>

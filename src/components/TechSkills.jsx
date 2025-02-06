@@ -4,9 +4,11 @@ import reactjs from "../assets/react.svg";
 import vitejs from "../assets/vitejs.svg";
 import bootstrap from "../assets/bootstrap-5-1.svg";
 import tailwindcss from "../assets/tailwindcss.svg";
+import ts from "../assets/ts-logo-256.svg";
 
 const TECH_SKILLS = [
     htmlcssjs,
+    ts,
     reactjs,
     vitejs,
     bootstrap,

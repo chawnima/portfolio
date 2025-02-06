@@ -71,7 +71,7 @@ const Header = () => {
         </a>
       </div>
 
-      <div className="flex w-full max-w-3xl h-96 items-start justify-center flex-col p-8 gap-8">
+      <div className="flex w-full max-w-3xl h-fit min-h-96 items-start justify-center flex-col p-8 gap-8">
         <h1 className="text-primary text-4xl font-bold w-4/6">
           <span>{firstSpan}</span>
           <span className="text-white">{secondSpan}</span>

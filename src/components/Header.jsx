@@ -1,7 +1,7 @@
 import { useState, useEffect } from "react";
 
 import logoTerbangin from "../assets/logoterbangin.png";
-import logoLapisMalang from "../assets/logolapismalang.png";
+import logoTyperace from "../assets/logotyperace.png"
 
 import GitHubIcon from "@mui/icons-material/GitHub";
 import LinkedInIcon from "@mui/icons-material/LinkedIn";
@@ -12,7 +12,7 @@ const TEXT = {
 };
 const FEATURED = [
   { name: "Terbangin", logo: logoTerbangin },
-  { name: "Lapis Malang", logo: logoLapisMalang },
+  { name: "Typerace", logo: logoTyperace },
 ];
 
 const Header = () => {

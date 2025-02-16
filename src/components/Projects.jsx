@@ -1,5 +1,6 @@
 import lapisMalangImage from "../assets/lapismalangwebsite.webp";
 import terbanginImage from "../assets/terbanginwebsite.webp";
+import typeraceImage from "../assets/typeracewebsite.webp";
 const Projects = () => {
   const PROJECT_LIST = [
     {
@@ -9,6 +10,13 @@ const Projects = () => {
       link: "https://terbangin-rheno27s-projects.vercel.app/",
       description:
         "A flight booking website that allows users to book flights and view flight schedules. This project was built in teams using Express, Vite, React, Tailwind CSS (some features still using Bootstrap), and some other libraries. My role in this project is the front-end developer. I built the homepage and helping others to build the rest of the pages (mostly on search query page and transaction page).",
+    },
+    {
+      name: "Typerace",
+      image:typeraceImage,
+      techStack: [],
+      link:"https://typerace-tsx.vercel.app/",
+      description:"A typing game that allows users to practice and improve their typing skills with an statistic output. This project was built using Express, Vite, and Tailwind CSS.",
     },
     {
       name: "Lapis Malang",
